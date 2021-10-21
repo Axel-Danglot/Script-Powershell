@@ -22,18 +22,18 @@ $LogFile = "C:\Temp\VBOExclusion.log"
 $repository = Get-VBORepository -Name "ExtendRepository"
 $org = Get-VBOOrganization -Name "voiesnavigablesdefrance.onmicrosoft.com"
 
-$from = "VeeamO365@vnf.fr"
-$Destinataires = "philippe.sakwinski@vnf.fr"
+$from = ""
+$Destinataires = ""
 [string[]]$To = $Destinataires.Split(',')
-$smtpserver = "mailvnf.in.tmes.trendmicro.eu"
+$smtpserver = ""
 $subject = "Veeam Backup for Microsoft Office 365 reports"
 $port = "25" # default: 25
 $usessl = $true # Use SSL (true) or not (false)
 
-$job1 = Get-VBOJob -Name "Exchange_Silver"
-$job2 = Get-VBOJob -Name "OneDrive_Silver"
-$job3 = Get-VBOJob -Name "SharePoint_Silver"
-$job4 = Get-VBOJob -Name "Teams_Silver"
+$job1 = Get-VBOJob -Name ""
+$job2 = Get-VBOJob -Name ""
+$job3 = Get-VBOJob -Name ""
+$job4 = Get-VBOJob -Name ""
 ######################################################################
 
 
