@@ -20,7 +20,7 @@ $CSVFile = Get-Content "C:\Sources\Scripts\Exclusiontest.txt"
 $LogFile = "C:\Temp\VBOExclusion.log"
 
 $repository = Get-VBORepository -Name "ExtendRepository"
-$org = Get-VBOOrganization -Name "voiesnavigablesdefrance.onmicrosoft.com"
+$org = Get-VBOOrganization -Name ""
 
 $from = ""
 $Destinataires = ""
